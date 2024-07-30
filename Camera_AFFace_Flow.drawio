@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T09:22:55.871Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="wyKE-EUz7JO1RWvCopq-" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="24.7.5">
   <diagram name="第 1 页" id="vPsSh9iqOYSn_BN9iD2Z">
-    <mxGraphModel dx="1408" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1115" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,6 +30,12 @@
         </mxCell>
         <mxCell id="KE_0EZvATPjBC4SKUIB_-8" value="PipeMgr" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="285" y="200" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7421TWJw8bo2dQgVFoba-1" value="AF_MGR -&amp;gt; af_mgr_private.cpp" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="77.5" y="540" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7421TWJw8bo2dQgVFoba-2" value="AF_MGR -&amp;gt; af_mgr.cpp" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="440" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
