@@ -86,10 +86,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VHsxaVXT9NV666SvxQeN-31" value="Process_DoStt()" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;gradientColor=#FFCC99;gradientDirection=north;swimlaneFillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="690" y="1000" width="290" height="60" as="geometry" />
+          <mxGeometry x="790" y="1000" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VHsxaVXT9NV666SvxQeN-32" value="根据AFO更新 stt profile" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VHsxaVXT9NV666SvxQeN-31">
-          <mxGeometry y="26" width="290" height="34" as="geometry" />
+          <mxGeometry y="26" width="190" height="34" as="geometry" />
         </mxCell>
         <mxCell id="VHsxaVXT9NV666SvxQeN-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=arrow;fillColor=#FFF2CC;strokeColor=#FF8000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VHsxaVXT9NV666SvxQeN-32" target="e8p8SwEJpr0MGHDvjRBw-3">
           <mxGeometry relative="1" as="geometry">
