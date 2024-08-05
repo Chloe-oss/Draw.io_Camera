@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="第 1 页" id="vPsSh9iqOYSn_BN9iD2Z">
-    <mxGraphModel dx="1444" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="4000" math="0" shadow="0">
+    <mxGraphModel dx="993" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="4000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,11 +52,6 @@
         <mxCell id="7421TWJw8bo2dQgVFoba-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="7421TWJw8bo2dQgVFoba-7" target="7421TWJw8bo2dQgVFoba-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="15H9-azZ6E0C8YDhbbDn-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.014;entryY=0.821;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7421TWJw8bo2dQgVFoba-7" target="15H9-azZ6E0C8YDhbbDn-19">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3080" y="2310" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="7421TWJw8bo2dQgVFoba-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Process_dooutput获取algo结果&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;1. 更新经Algo扩展处理后的FDArea&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ IsSelHWROI(): flag 0-&amp;gt;1&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ IsAFSearch(): flag 0-&amp;gt;1 ROI is sleected&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ IsAFSearch(): flag 1-&amp;gt;2 move lens&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ IsAFSearch(): flag 2-&amp;gt;1 AF search END&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=1;imageHeight=24;gradientColor=#efdef7;gradientDirection=north;" parent="1" vertex="1">
           <mxGeometry x="3115.97" y="2140" width="230" height="130" as="geometry" />
         </mxCell>
@@ -75,8 +70,13 @@
         <mxCell id="7421TWJw8bo2dQgVFoba-19" value="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px;&quot;&gt;setROIToFocusing&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style: solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;+ sel(3)：Face type&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;+ type(3)：face roi is selected&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=1;gradientColor=#FFF2CC;gradientDirection=north;" parent="1" vertex="1">
           <mxGeometry x="3460.9700000000003" y="2140" width="210" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="15H9-azZ6E0C8YDhbbDn-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7dE2cxJAKC6fFFNWmFxk-1" target="15H9-azZ6E0C8YDhbbDn-19">
+        <mxCell id="15H9-azZ6E0C8YDhbbDn-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7dE2cxJAKC6fFFNWmFxk-1" target="15H9-azZ6E0C8YDhbbDn-19">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15H9-azZ6E0C8YDhbbDn-34" value="调用，更新AF information" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="15H9-azZ6E0C8YDhbbDn-31">
+          <mxGeometry x="0.0118" y="-1" relative="1" as="geometry">
+            <mxPoint x="56" y="-1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="7dE2cxJAKC6fFFNWmFxk-1" value="Process_DoData()" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;gradientColor=#E5CCFF;gradientDirection=north;swimlaneFillColor=default;" parent="1" vertex="1">
           <mxGeometry x="2140" y="2140" width="290" height="60" as="geometry" />
@@ -98,17 +98,24 @@
         <mxCell id="15H9-azZ6E0C8YDhbbDn-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.012;entryY=0.389;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="15H9-azZ6E0C8YDhbbDn-14" target="7421TWJw8bo2dQgVFoba-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="15H9-azZ6E0C8YDhbbDn-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.561;entryY=0.985;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="15H9-azZ6E0C8YDhbbDn-18" target="7dE2cxJAKC6fFFNWmFxk-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2300" y="2210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2303" y="2280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15H9-azZ6E0C8YDhbbDn-33" value="获取AP Area，提供Focus roi" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="15H9-azZ6E0C8YDhbbDn-32">
+          <mxGeometry x="-0.4651" relative="1" as="geometry">
+            <mxPoint x="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="15H9-azZ6E0C8YDhbbDn-18" value="SelRoiToFocusing" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;gradientColor=#FFE6CC;gradientDirection=north;swimlaneFillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="2810" y="2238" width="260" height="160" as="geometry" />
+          <mxGeometry x="2482.5" y="2250" width="260" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="15H9-azZ6E0C8YDhbbDn-19" value="1. 更新" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="15H9-azZ6E0C8YDhbbDn-18">
-          <mxGeometry y="26" width="260" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="15H9-azZ6E0C8YDhbbDn-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="15H9-azZ6E0C8YDhbbDn-18">
-          <mxGeometry y="80" width="260" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="15H9-azZ6E0C8YDhbbDn-21" value="&lt;div&gt;1. algo setup afo&lt;/div&gt;&lt;div&gt;2. algo handle&lt;/div&gt;&lt;div&gt;3. move lens&lt;/div&gt;&lt;div&gt;&lt;pre style=&quot;border: 0px; margin-top: 0px; margin-bottom: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;display: inline;&quot; class=&quot;scope-body&quot; id=&quot;scope_id_3919c941_fold&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;a style=&quot;text-decoration-line: none; color: rgb(153, 0, 153); font-weight: bold;&quot; data-definition-place=&quot;defined-in-file&quot; href=&quot;http://10.205.0.37:8080/transsion_mtk.s0.mp1_trunk/xref/vendor/mediatek/proprietary/hardware/mtkcam-core/aaa/common/af_mgr/af_cxu/af_cpu_imp.cpp#MoveLensTo&quot; class=&quot;d intelliWindow-symbol&quot;&gt;MoveLensTo&lt;/a&gt;(&lt;a style=&quot;text-decoration-line: none; color: rgb(153, 0, 153); font-weight: bold;&quot; data-definition-place=&quot;defined-in-file&quot; href=&quot;http://10.205.0.37:8080/transsion_mtk.s0.mp1_trunk/xref/vendor/mediatek/proprietary/hardware/mtkcam-core/aaa/common/af_mgr/af_cxu/af_cpu_imp.cpp#doAfOutput&quot; class=&quot;d intelliWindow-symbol&quot;&gt;doAfOutput&lt;/a&gt;.&lt;a style=&quot;text-decoration-line: none; color: rgb(32, 48, 162);&quot; data-definition-place=&quot;undefined-in-file&quot; class=&quot;intelliWindow-symbol&quot; href=&quot;http://10.205.0.37:8080/transsion_mtk.s0.mp1_trunk/s?defs=afOutput&amp;amp;project=vendor&quot;&gt;afOutput&lt;/a&gt;.&lt;a style=&quot;text-decoration-line: none; color: rgb(32, 48, 162);&quot; data-definition-place=&quot;undefined-in-file&quot; class=&quot;intelliWindow-symbol&quot; href=&quot;http://10.205.0.37:8080/transsion_mtk.s0.mp1_trunk/s?defs=af_pos&amp;amp;project=vendor&quot;&gt;af_pos&lt;/a&gt;);&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="15H9-azZ6E0C8YDhbbDn-18">
-          <mxGeometry y="88" width="260" height="72" as="geometry" />
+        <mxCell id="15H9-azZ6E0C8YDhbbDn-19" value="1. 更新AP 上层的AF Area、ROI类型&lt;div&gt;&lt;pre style=&quot;border: 0px; margin-top: 0px; margin-bottom: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;display: inline;&quot; class=&quot;scope-body&quot; id=&quot;scope_id_e03127df_fold&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;a style=&quot;color: rgb(32, 32, 98);&quot; data-definition-place=&quot;undefined-in-file&quot; class=&quot;intelliWindow-symbol&quot; href=&quot;http://10.205.0.37:8080/transsion_mtk.s0.mp1_trunk/s?defs=m_sArea_Focusing&amp;amp;project=vendor&quot;&gt;m_sArea_Focusing&lt;/a&gt; = &lt;a style=&quot;text-decoration-line: none; color: rgb(32, 48, 162);&quot; data-definition-place=&quot;undefined-in-file&quot; class=&quot;intelliWindow-symbol&quot; href=&quot;http://10.205.0.37:8080/transsion_mtk.s0.mp1_trunk/s?defs=m_sArea_APCmd&amp;amp;project=vendor&quot;&gt;m_sArea_APCmd&lt;/a&gt;;&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;border: 0px; margin-top: 0px; margin-bottom: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;display: inline;&quot; class=&quot;scope-body&quot;&gt;&lt;font face=&quot;nmB2_S6D8pUiO9Lj7UBS&quot;&gt;&lt;a style=&quot;text-decoration-line: none; color: rgb(32, 48, 162);&quot; data-definition-place=&quot;undefined-in-file&quot; class=&quot;intelliWindow-symbol&quot; href=&quot;http://10.205.0.37:8080/transsion_mtk.s0.mp1_trunk/s?defs=m_sArea_TypeSel&amp;amp;project=vendor&quot;&gt;m_sArea_TypeSel&lt;/a&gt; = &lt;a style=&quot;text-decoration-line: none; color: rgb(32, 48, 162);&quot; data-definition-place=&quot;undefined-in-file&quot; class=&quot;intelliWindow-symbol&quot; href=&quot;http://10.205.0.37:8080/transsion_mtk.s0.mp1_trunk/s?defs=AF_ROI_SEL_AP&amp;amp;project=vendor&quot;&gt;AF_ROI_SEL_AP&lt;/a&gt;;&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;border: 0px; margin-top: 0px; margin-bottom: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;display: inline;&quot; class=&quot;scope-body&quot;&gt;&lt;font style=&quot;&quot; face=&quot;Helvetica&quot;&gt;2.根据ROI类型设置focus roi，输出focus roi&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="15H9-azZ6E0C8YDhbbDn-18">
+          <mxGeometry y="26" width="260" height="74" as="geometry" />
         </mxCell>
         <mxCell id="15H9-azZ6E0C8YDhbbDn-26" value="setOTFDInfo 获取origin face(ISP6s,ISP7去掉)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;gradientColor=#FFE6CC;gradientDirection=north;swimlaneFillColor=default;" vertex="1" parent="1">
           <mxGeometry x="2452.5" y="2770" width="290" height="160" as="geometry" />
