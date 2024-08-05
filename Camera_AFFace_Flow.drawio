@@ -75,7 +75,7 @@
             <mxPoint x="2892.5" y="2313" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="15H9-azZ6E0C8YDhbbDn-34" value="调用，更新AF information" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="15H9-azZ6E0C8YDhbbDn-31">
+        <mxCell id="15H9-azZ6E0C8YDhbbDn-34" value="调用，更新Focus ROI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="15H9-azZ6E0C8YDhbbDn-31">
           <mxGeometry x="0.0118" y="-1" relative="1" as="geometry">
             <mxPoint x="41" y="97" as="offset" />
           </mxGeometry>
@@ -96,7 +96,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="15H9-azZ6E0C8YDhbbDn-33" value="获取Algo处理后的AF Area，&lt;div&gt;提供Focus roi&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="15H9-azZ6E0C8YDhbbDn-32">
+        <mxCell id="15H9-azZ6E0C8YDhbbDn-33" value="获取Algo处理后的AF Area" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="15H9-azZ6E0C8YDhbbDn-32">
           <mxGeometry x="-0.4651" relative="1" as="geometry">
             <mxPoint x="-22" as="offset" />
           </mxGeometry>
@@ -156,7 +156,7 @@
           <mxGeometry y="26" width="260" height="74" as="geometry" />
         </mxCell>
         <mxCell id="15H9-azZ6E0C8YDhbbDn-54" value="&lt;span style=&quot;font-weight: 700; white-space: normal;&quot;&gt;*m_sAFOutput&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="3100" y="2568" width="110" height="30" as="geometry" />
+          <mxGeometry x="3120" y="2568" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
